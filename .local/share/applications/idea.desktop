@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Intelli-J
+Comment=
+Exec=sh /usr/lib/idea/bin/idea.sh
+Icon=/usr/lib/idea/bin/idea128.png
+Terminal=false
+Type=Application
+StartupNotify=true
