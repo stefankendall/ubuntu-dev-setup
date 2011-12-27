@@ -1,0 +1,30 @@
+[alias]
+log = log --graph
+logp = log -p --graph
+logs = log --stat --graph
+what = whatchanged
+mom = merge origin/master
+df = diff
+lg = log --pretty=oneline --all --graph --abbrev-commit --decorate
+ll = log --raw
+lo = log --pretty=oneline --graph
+
+co = checkout
+ci = commit
+st = status
+logs = log --stat
+br = branch
+
+[diff]
+tool = bc3
+[difftool "bc3"]
+cmd = ""
+[difftool]
+prompt = false
+[merge]
+tool = bc3
+[mergetool "bc3"]
+cmd = ""
+trustExitCode = true
+[color]
+	ui = auto
