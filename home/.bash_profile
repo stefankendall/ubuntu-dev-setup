@@ -1,4 +1,6 @@
 # source the system wide bashrc if it exists
+source /etc/bash_completion.d/git
+
 if [ -e /etc/bash.bashrc ] ; then
   source /etc/bash.bashrc
 fi
