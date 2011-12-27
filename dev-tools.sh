@@ -4,8 +4,6 @@ cp ./etc/environment /etc/environment
 GRADLE="gradle-1.0-milestone-6"
 GROOVY="groovy-binary-1.8.5"
 
-mkdir -p tools
-
 rm -rf ./tools/*
 
 wget http://dist.groovy.codehaus.org/distributions/$GROOVY.zip
