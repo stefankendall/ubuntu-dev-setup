@@ -1,3 +1,4 @@
 JAVA_HOME="/tools/java"
+JDK_HOME="/tools/java"
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/tools/java/bin:/tools/groovy/bin:/tools/gradle/bin"
 
